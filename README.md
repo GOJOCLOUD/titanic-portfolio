@@ -3,3 +3,5 @@
 https://www.kaggle.com/code/gojocloud/gojo-s-first-analysis
 
 如何复现简单特征工程?在数据预处理之后，在notebook界面单开代码框，将features.py代码复制入框即可（独立代码）
+
+按照安排，尝试对现有的randomforest进行优化，利用OOB（得到n_estimators，max_features，max_depth等的最优数值）找到randomforest的最佳参数，准确率不敌未优化模型
